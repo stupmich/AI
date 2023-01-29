@@ -11,3 +11,11 @@ Následne stačí na vytvorenom objekte triedy Visualizer zavolať metódu visua
 Metóda slúži na zobrazenie grafu skóre, epsilonu a priemeru / kĺzavého priemeru skóre v danej hre.
 Metóda má volitelný parameter average, ktorý slúži na zobrazenie priemeru / kĺzavého priemeru v grafe, default False a druhý volitelný parameter
 moving_average_threshold, ktorý hovorí o tom koľko posledných hier sa má priemerovať, default 100.
+
+Druhý typ grafu je možné vykresliť metodou visualize_score_time().
+Metóda slúži na zobrazenie grafu skóre, času hry a priemeru / kĺzavého priemeru skóre v danej hre.
+Parametre metódy sú rovnake ako pri metóde visualize_data().
+
+Tretí druh grafu je možné vykresliť metodou visualize_actions_data().
+Metóda slúži na zobrazenie grafu priemerného počtu vykonania jednotlivých akcii počas posledných X hier.
+Parameter moving_average_threshold udáva počet posledných hier, ktoré sa berú do úvahy pri počítaní priemerneho počtu akcii.
